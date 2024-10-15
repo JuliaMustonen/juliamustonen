@@ -1,0 +1,164 @@
+/*
+div {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b17a7a;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 100px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ab8b8b;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #7d3535;
+    color: rgb(201, 104, 104);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0c0c0c;
+}
+
+body {
+    background-color: #f8f6f1;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #785530;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.active {
+    background-color: #F6E2B9
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Dogra&display=swap');
+
+header {
+    background-image: url("julia.m2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+header h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #2f1e08;
+    margin: 0px;
+    font-family: "Noto Serif Dogra", serif;
+
+}
+
+.navbar {
+    width: 100%;
+    /* Leveys 100% */
+    position: fixed;
+    /* Kiinnitetään palkki ylös */
+    top: 0;
+    /* Yläreuna */
+    left: 0;
+    /* Vasemman reunan kiinnitys */
+    z-index: 1000;
+    /* Varmistaa, että palkki on päällä muista elementeistä */
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+
+}
+
+
+section {
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.lead {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.quote {
+    font-size: 40px;
+    text-align: center;
+    padding: 70px;
+}
+
+section img {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+
+
+@media only screen and (min-width: 650px) {
+    .content {
+        width: 75%;
+    }
+
+    .header h1 {
+        padding: 40px 200px 1px 50px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .content {
+        width: 55%;
+    }
+
+    .header h1 {
+        font-size: 70px;
+        padding: 10px 200px 1px 50px;
+    }  
+ }
