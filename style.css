@@ -9,7 +9,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Dogra&display=swap');
 body {
     font-family: Arial, sans-serif;
     background-color: #b17a7a;
@@ -58,7 +58,7 @@ ul {
 }
 
 li {
-    float: center;
+
 }
 
 li a {
@@ -74,7 +74,7 @@ li a {
     background-color: #F6E2B9
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Dogra&display=swap');
+
 
 header {
     background-image: url("julia.m2.jpg");
